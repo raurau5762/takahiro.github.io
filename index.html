@@ -1,91 +1,104 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="style.css" rel="stylesheet">
-    <title>たかひろのポートフォリオ</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+  <title>たかひろのポートフォリオ</title>
+</head>
+<body>
+
+  <header>
     <h1>たかひろ</h1>
-    <img src="c7ca5961-private.png">
-  </body>
-</html>
+    <img src="c7ca5961-private.png" alt="プロフィール画像">
+  </header>
 
-    <h2>About</h2>
-    <p>
-      簡単な自己紹介やアピール。<br>
-      どんなことができる、したいのか。
-    </p>
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        高橋宏明です。<br>
+        趣味はゲームや音楽、スポーツ観戦もします。
+        得意領域はPC関連のソフトウェアで、BlenderやUnity、Adobeのソフトを使うことができます。
+      </p>
+    </section>
 
-    <h3>Profile</h3>
-    <ul>
-      <li>名前：高橋 宏明</li>
-      <li>出身地:東京都</li>
-      <li>ZEN大生</li>
-    </ul>
+    <section id="profile">
+      <h3>Profile</h3>
+      <ul>
+        <li><strong>名前：</strong>高橋 宏明</li>
+        <li><strong>出身地：</strong>東京都</li>
+        <li><strong>所属：</strong>ZEN大学</li>
+      </ul>
+    </section>
 
-    <h3>Skills</h3>
-    <table>
-      <tr>
-        <th>プログラミング</th>
-        <td>C言語,Python</td>
-      </tr>
-      <tr>
-        <th>adobe</th>
-        <td>Photoshop,illustratorなど複数</td>
-      </tr>
-      <tr>
-        <th>他ソフトウェア</th>
-        <td>unity,blender</td>
-      </tr>
-      <tr>
-        <th>その他</th>
-        <td>スプラトゥーン2瞬間日本一位,apexマスター</td>
-      </tr>
-    </table>
+    <section id="skills">
+      <h3>Skills & Achievements</h3>
+      <table>
+        <tr>
+          <th>プログラミング</th>
+          <td>C言語, Python</td>
+        </tr>
+        <tr>
+          <th>Adobe</th>
+          <td>Photoshop, Illustrator など複数</td>
+        </tr>
+        <tr>
+          <th>3D・ゲーム開発</th>
+          <td>Unity, Blender</td>
+        </tr>
+        <tr>
+          <th>実績・その他</th>
+          <td>スプラトゥーン2 瞬間日本一位、Apex Legends マスター</td>
+        </tr>
+      </table>
+    </section>
 
-    <h3>Works</h3>
-    <p>活動内容</p>
-    <ul>
-      <li><a href="https://github.com/">GitHub</a></li>
-      <li><a href="https://qiita.com/">Qiita</a></li>
-      <li><a href="https://zenn.dev/">Zenn</a></li>
-      <li>
-        作った作品
-        <ul>
-          <li><a href="https://example.com/">作品 1</a></li>
-          <li><a href="https://example.com/">作品 2</a></li>
-        </ul>
-      </li>
-    </ul>
+    <section id="works">
+      <h3>Works (Open Processing)</h3>
+      <div class="iframe-container">
+        <iframe src="https://openprocessing.org/sketch/2961772/embed/" width="400" height="400"></iframe>
+      </div>
+    </section>
 
-    <h3>Contact</h3>
-    <p>連絡先</p>
-    <ul>
-      <li><a href="raurau5762@gmail.com">Mail</a></li>
- 
-    </ul>
+    <section id="favorites">
+      <h3>Favorite Music</h3>
+      <div class="iframe-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pHdJmDFYqTU?si=gNejsqI988hIjNLp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
 
-    <h3>History</h3>
-    <p>学歴、職歴、アルバイト、インターン経験など。</p>
-    <table>
-      <tr>
-        <th>2026年</th>
-        <td>歯医者の事務</td>
-      </tr>
-      <tr>
-        <th>2023年</th>
-        <td>学校法人角川ドワンゴ学園 <a href="https://nnn.ed.jp/">N高等学校</a> 卒業</td>
-      </tr>
-      <tr>
-        <th>2020年</th>
-        <td>音楽関係のアルバイト/td>
-      </tr>
-    <h3>Open Processing</h3>
-      <iframe src="https://openprocessing.org/sketch/2961772/embed/" width="400" height="400"></iframe>
-    </table>
-<h3>好きな動画</h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pHdJmDFYqTU?si=gNejsqI988hIjNLp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  </body>
+    <section id="history">
+      <h3>History</h3>
+      <p>学歴、職歴、アルバイト、インターン経験など。</p>
+      <table>
+        <tr>
+          <th>2026年</th>
+          <td>歯科医院 事務</td>
+        </tr>
+        <tr>
+          <th>2023年</th>
+          <td>学校法人角川ドワンゴ学園 <a href="https://nnn.ed.jp/" target="_blank" rel="noopener noreferrer">N高等学校</a> 卒業</td>
+        </tr>
+        <tr>
+          <th>2020年</th>
+          <td>音楽関係のアルバイト</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h3>Contact</h3>
+      <p>ご連絡は以下のメールアドレス、または各種SNSまでお願いいたします。</p>
+      <ul>
+        <li><a href="mailto:raurau5762@gmail.com">GMail (raurau5762@gmail.com)</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 たかひろ All Rights Reserved.</p>
+  </footer>
+
+</body>
 </html>
